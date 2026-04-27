@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Inter', sans-serif; }
+  h1, h2, h3 { font-family: 'Playfair Display', serif; }
+}
+
+@layer components {
+  .nav-link {
+    @apply relative text-sm font-medium text-gray-700 hover:text-blue-700 transition-colors duration-200 py-1;
+  }
+  .nav-link::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-blue-700 transition-all duration-300;
+  }
+  .nav-link:hover::after { @apply w-full; }
+  .nav-link.active { @apply text-blue-700; }
+  .nav-link.active::after { @apply w-full; }
+}
