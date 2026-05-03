@@ -49,7 +49,7 @@ export default function MiColegio() {
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Quiénes Somos</h2>
               <div className="w-10 h-1 bg-blue-600 rounded mb-6" />
               <p className="text-gray-600 leading-relaxed mb-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip prueba prueba text.
               </p>
               <p className="text-gray-600 leading-relaxed mb-4">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
